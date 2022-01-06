@@ -12,4 +12,7 @@ package frc.robot;
  * <p>It is advised to statically import this class (or one of its inner classes) wherever the
  * constants are needed, to reduce verbosity.
  */
-public final class Constants {}
+public final class Constants {
+    public static final double SHOOTER_POWER = 0.69; //kelly's idea
+    public static final int talonID = 6; //poluk's idea
+}
